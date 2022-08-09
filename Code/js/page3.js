@@ -24,8 +24,9 @@ const codeBook = Array.from(document.getElementsByClassName('codeBook'));
 const gitlink = ["https://github.com/jueun11/light-project","https://github.com/jueun11/fruit-project","https://github.com/jueun11/cafe"];
 console.log(gitlink);
 
+const vistLink = ["https://jueun11.github.io/mobile_viewer_1/","https://jueun11.github.io/fruit-project/","https://jueun11.github.io/cafePage/"]
 
-
+const vistBtn = Array.from(document.getElementsByClassName('Vist'));
 // const codeconfirm = (e) => {
 //   let codebookResult = confirm("github로 이동합니다");
 //       if(codebookResult){
@@ -64,6 +65,10 @@ for(i=0; i<PhotoFrames.length; i++){
     page3bg.style.opacity = 0;
     popup[value].style.display = "flex";
     
+    const vistopen = (e) => {
+      console.log('vist누름');
+        window.open(vistLink[value]);
+        }
     const codeconfirm = (e) => {
       console.log('책 누름');
       let codebookResult = confirm("github로 이동합니다");
@@ -74,6 +79,7 @@ for(i=0; i<PhotoFrames.length; i++){
         }
         
     codeBook[value].addEventListener("click",codeconfirm);
+    vistBtn[value].addEventListener("click",vistopen);
     
     esc.style.display = "block";
       esc.addEventListener('click',function(){
