@@ -24,7 +24,7 @@ const codeBook = Array.from(document.getElementsByClassName('codeBook'));
 const gitlink = ["https://github.com/jueun11/light-project","https://github.com/jueun11/fruit-project","https://github.com/jueun11/cafe"];
 console.log(gitlink);
 
-const vistLink = ["https://jueun11.github.io/mobile_viewer_1/","https://jueun11.github.io/fruit-project/","https://jueun11.github.io/cafePage/"]
+const vistLink = ["https://jueun11.github.io/mobile_viewer_1/","https://www.figma.com/file/YKRi00PuqSX92YqwjndUAa/%EA%B3%BC%EC%9D%BC?node-id=0%3A1","https://jueun11.github.io/cafe/"]
 
 const vistBtn = Array.from(document.getElementsByClassName('Vist'));
 // const codeconfirm = (e) => {
