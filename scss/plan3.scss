@@ -7,10 +7,10 @@
         // background-color: red;
         
         display: flex;
-        border-bottom: 30vh solid #DC0D28;
+        border-bottom: 30vh solid #7B5244;
         border-top: 30vh solid transparent;
         border-left: 21.5vw solid transparent;
-        border-right: 21.5vw solid #DC0D28;
+        border-right: 21.5vw solid #7B5244;
         // display: none;
         &>h1{
           font-family: 'GowunDodum-Regular';
@@ -18,10 +18,10 @@
           left: 32vw;
           top: 25vh;
           font-size: 1.8rem;
-          color: #380000;
+          color: #51382A;
           &>span{
             font-size: 1.6rem;
-            border-bottom: 1px solid #380000;
+            border-bottom: 1px solid #51382A;
           }
         }
       }
@@ -30,7 +30,7 @@
         height: 60vh;
         display: none;
         flex-direction: row;
-        color: #380000;
+        color: #51382A;
         
         &>div:nth-child(1){
           width: 50%;
@@ -52,7 +52,7 @@
             &>div:nth-child(1){
               width: 1px;
               height: 100%;
-              background-color: #47D184;
+              background-color: #DCA269;
               display: flex;
               justify-content: center;
               position: relative;
@@ -60,7 +60,7 @@
               &>div{
                 width: 1.2vh;
                 height: 1.2vh;
-                background-color: #47D184;
+                background-color: #DCA269;
                 border-radius: 50%;
                 position: absolute;
                 z-index: 3;
@@ -103,7 +103,7 @@
         &>div:nth-child(2){
           width: 50%;
           height: 100%;
-          background-color: #DC0D28;
+          background-color: #DCA269;
 
           // background-image: url(/image/plan/project1/light_1.jpg);
           background-size: cover;
@@ -112,11 +112,10 @@
       &>div:nth-child(3){
         width: 43vw;
         height: 60vh;
-        // background-color: rgb(229, 255, 0);
         display: flex;
         display: none;
         flex-direction: column;
-        color: #380000;
+        color: #51382A;
 
         &>div:nth-child(1){
           width: 43vw;
@@ -127,6 +126,9 @@
           padding-right: 4vw;
           display: flex;
           flex-direction: row;
+          &>h3{
+            width: 12vw;
+          }
           &>p{
             margin-left: 2vw;
           }
@@ -135,60 +137,26 @@
           width: 43vw;
           height: 43vh;
           // border: 1px solid red;
-          background-color: rgba(220, 13, 40,0.3);
-          background-color: #47D184;
-
+          background-color: #DCA269;
           display: flex;
           align-items: center;
           justify-content: center;
           &>div{
-            width: 30vw;
-            height: 30vh;
-            // border: 1px solid #fff;
+            width: 15vw;
+            height: 5vh;
             display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            flex-direction: column;
-            padding: 3vh;
-            font-size: 0.7rem;
-          background-color: rgba(220, 13, 40,0.3);
-
-            &>h3{
-              color: #fff;
-              width: 27vw;
-              height: 5vh;
+            justify-content: space-between;
+            align-items: center;
+            &>p{
+              color: white;
             }
-            &>div{
-              width: 23vw;
-              height: 18vh;
-              // border: 1px solid #fff;
-          background-color: rgba(220, 13, 40,0.3);
-
-              padding: 3vh;
-              display: flex;
-              align-items: flex-end;
-              justify-content: flex-end;
-              flex-direction: column;
-              &>h3{
-                width: 20vw;
-                height: 5vh;
-                color: #fff;
-                // border: 1px solid black;
-              }
-              &>div{
-                width: 17vw;
-                height: 10vh;
-                background-color: rgba(220, 13, 40,0.2);
-
-                // border: 1px solid #fff;
-                &>h3{
-                  color: #fff;
-                  margin-top: 1vh;
-                  margin-left: 1vw;
-                }
-              }
+            &>div:nth-child(2){
+              width: 5vw;
+              height: 1px;
+              background-color: #fff;
             }
           }
+          
         }
         &>div:nth-child(3){
           width: 43vw;
@@ -200,7 +168,7 @@
           justify-content: space-between;
           align-items: flex-end;
           &>p{
-            color: #380000;
+            color: #fff;
             margin-left: 1.5vw;
             margin-right: 1.5vw;
             margin-bottom: 1vh;
@@ -213,7 +181,7 @@
         display: flex;
         display: none;
         flex-direction: column;
-        background-color: #47D184;
+        background-color: #DCA269;
         &>div:nth-child(1){
           width: 43vw;
           height: 17vh;
@@ -262,6 +230,7 @@
             justify-content: center;
             &>p{
               color: #fff;
+              text-align: center;
             }
           }
           &>div:nth-child(3){
@@ -281,6 +250,7 @@
             justify-content: center;
             &>p{
               color: #fff;
+              text-align: center;
             }
           }
         }
@@ -294,7 +264,7 @@
           justify-content: space-between;
           align-items: flex-end;
           &>p{
-            color: #380000;
+            color: #fff;
             margin-left: 1.5vw;
             margin-right: 1.5vw;
             margin-bottom: 1vh;
@@ -317,18 +287,18 @@
             padding-right: 4vw;
             &>h3{
               width: 12vw;
-              color: #380000;
+              color: #51382A;
             }
             &>p{
               margin-left: 2vw;
-              color: #380000;
+              color: #51382A;
             }
           }
           &>div:nth-child(2){
             width: 43vw;
-            height: 43vh;
+            height: 50vh;
             // border: 1px solid red;
-            background-color: #47D184;
+            background-color: #DCA269;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -355,7 +325,7 @@
             justify-content: space-between;
             align-items: flex-end;
             &>p{
-              color: #380000;
+              color: #fff;
               margin-left: 1.5vw;
               margin-right: 1.5vw;
               margin-bottom: 1vh;
@@ -379,17 +349,21 @@
           flex-direction: row;
           &>h3{
             width: 12vw;
-            color: #380000;
+            color: #51382A;
           }
         }
         &>div:nth-child(2){
-          background-color: #47D184;
+          background-color: #DCA269;
           width: 43vw;
-          height: 43vh;
+          height: 50vh;
           display: flex;
           flex-direction: row;
           // align-items: center;
           justify-content: center;
+          align-items: center;
+          &>img{
+            width: 80%;
+          }
           &>div{
             margin-top: 12vh;
             margin-left: 0.7vw;
@@ -429,7 +403,7 @@
           justify-content: space-between;
           align-items: flex-end;
           &>p{
-            color: #380000;
+            color: #fff;
             margin-left: 1.5vw;
             margin-right: 1.5vw;
             margin-bottom: 1vh;
@@ -442,93 +416,16 @@
         display: flex;
         display: none;
         flex-direction: column;
-        background-image: url(/Code/image/plan/project2/mixbg.png);
-        background-size: cover;
-        &>div:nth-child(1){
-          width: 43vw;
-          height: 17vh;
-          // border: 1px solid rgb(104, 50, 50);
-          display: flex;
-          padding-top: 4vh;
-          padding-left: 4vw;
-          padding-right: 4vw;
-          display: flex;
-          flex-direction: row;
-          &>h3{
-            width: 12vw;
-            color: #fff;
-          }
-          &>p{
-            margin-left: 2vw;
-            color: #fff;
-          }
-        }
-        &>div:nth-child(2){
-          width: 43vw;
-          height: 43vh;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-          &>div:nth-child(1){
-            width: 27vh;
-            height: 27vh;
-            border-radius: 50%;
-            border: 1px solid #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-          }
-          &>div:nth-child(2){
-            margin-left: 1.5vw;
-            margin-right: 1.5vw;
-          }
-          &>div:nth-child(3){
-            width: 27vh;
-            height: 27vh;
-            border-radius: 50%;
-            border: 1px solid #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-
-          }
-        }
-        &>div:nth-child(3){
-          width: 43vw;
-          height: 5vh;
-          position: absolute;
-          bottom: 20vh;
-          // border: 1px solid red;
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-end;
-          &>p{
-            color: #1B4158;
-            margin-left: 1.5vw;
-            margin-right: 1.5vw;
-            margin-bottom: 1vh;
-          }
-        }
-      }
-      &>div:nth-child(8){
-        width: 43vw;
-        height: 60vh;
-        display: flex;
-        display: none;
-        flex-direction: column;
         &>div:nth-child(1){
           width: 43vw;
           height: 60vh;
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: #81A6C0;
+          background-color: #DCA269;
 
           &>img{
-            width: 110%;
+            width: 80%;
             // height: 100%;
           }
         }
@@ -542,7 +439,7 @@
           justify-content: space-between;
           align-items: flex-end;
           &>p{
-            color: #1B4158;
+            color: #fff;
             margin-left: 1.5vw;
             margin-right: 1.5vw;
             margin-bottom: 1vh;
