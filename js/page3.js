@@ -27,20 +27,7 @@ console.log(gitlink);
 const vistLink = ["https://jueun11.github.io/mobile_viewer_1/","https://www.figma.com/file/YKRi00PuqSX92YqwjndUAa/%EA%B3%BC%EC%9D%BC?node-id=0%3A1","https://jueun11.github.io/cafe/"]
 
 const vistBtn = Array.from(document.getElementsByClassName('Vist'));
-// const codeconfirm = (e) => {
-//   let codebookResult = confirm("github로 이동합니다");
-//       if(codebookResult){
 
-//         //클릭한 페이지의 링크..배열순서 이용
-//         window.open(gitlink[value]);
-        
-//       }
-//       if(codebookResult){
-//         //클릭한 페이지의 링크..배열순서 이용
-//         window.open(gitlink[0]);
-//       }
-// }
-// let timer = null;
 
 function throttle(codeconfirm, wait) {
   // let waiting = ture;
@@ -86,8 +73,9 @@ for(i=0; i<PhotoFrames.length; i++){
         popups.style.display = "none";
         popup[value].style.display = "none";
         page3bg.style.opacity = 1;
+        //*remove안해주면 이벤트가 계속 쌓인다
         codeBook[value].removeEventListener("click",codeconfirm);
-        
+        vistBtn[value].removeEventListener("click",vistopen);
       });
       for(i=0; i<nav.length; i++){
         nav[i].addEventListener('click',function(){
